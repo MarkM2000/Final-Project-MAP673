@@ -18,7 +18,7 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{
 
 // Create hotspots for lighthouses
 var hotspots = [{
-    name: "National Gallery of Art",
+    name: "Bodie Island Lighthouse",
     properties: {
         location: "Bodie Island",
         coordinates: [35.818554, -75.563309],
