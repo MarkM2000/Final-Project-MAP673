@@ -28,7 +28,7 @@ var hotspots = [{
 }, {
     name: "Cape Hatteras Lighthouse",
     properties: {
-        location: "A museum dedicated to space exploration and human aircraft flights",
+        location: "Hatteras Island",
         coordinates: [35.250533, -75.528806],
         url: 'https://www.nps.gov/caha/planyourvisit/chls.htm',
         icon: '../svg/lighthouse-15.svg',
