@@ -30,8 +30,6 @@ for (var i = 0; i < hotspots.length; i++) {
              <p><b>url</b>: <a href='${props.url}'>${props.url}</a></p>
              `
 
-    popup += props.phone ? `<p><b>phone</b>: ${props.phone}</p>` : "";
-
     var icon = L.icon({
         iconUrl: props.icon,
         iconSize: [40, 40],
