@@ -17,3 +17,6 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{
 }).addTo(map);
 
 // Create hotspots for lighthouses
+var hotspots = [{
+    
+}];
