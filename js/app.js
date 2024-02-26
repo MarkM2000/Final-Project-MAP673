@@ -18,5 +18,19 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{
 
 // Create hotspots for lighthouses
 var hotspots = [{
-    
+    name: "National Gallery of Art",
+    properties: {
+        location: "Bodie Island",
+        coordinates: [35.818554, -75.563309],
+        url: 'https://www.nps.gov/caha/planyourvisit/bils.htm',
+        icon: '../svg/lighthouse-15.svg'
+    }
+}, {
+    name: "Cape Hatteras Lighthouse",
+    properties: {
+        location: "A museum dedicated to space exploration and human aircraft flights",
+        coordinates: [35.250533, -75.528806],
+        url: 'https://www.nps.gov/caha/planyourvisit/chls.htm',
+        icon: '../svg/lighthouse-15.svg',
+    }
 }];
