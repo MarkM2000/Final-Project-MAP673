@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,31 +13,38 @@
         integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;700&display=swap" rel="stylesheet" />
-</head>
+    <!-- Styles CSS -->
+    <link href="/css/styles.css"
 
 <body>
     <div class="container-fluid">
         <header class="row bg-dark text-white py-3">
-            <h1>Outer Banks</h1>
-            <p>
-                This final project will focus on the Outer Banks. This map will use stuff that was from previous
-                mockups. This map will include tourist destinations such as hotels and lighthouses.
-            </p>
+            <div class="col">
+                <h1>Outer Banks Mockup</h1>
+                <p>This is the third mockup sketch of what my final project of the Outer Banks would look like. My first
+                    mockup was done by sketch, my second mockup was done by Adobe Illustrator, and this one will be done
+                    via index. The final project will be focused on the Outer Banks, which is the reason I did this
+                    mockup. This mockup features placemarks that represents the hotels and circles that represents the
+                    lighthouse, although changes will be made to it in the final project.</p>
+                <h2>Planned features</h2>
+                <p>The final project will feature tourist destinations such as hotels and lighthouses. In this mockup,
+                    the placemarks represent the hotels and the circles
+                    represent the lighthouses, and both icons will likely be changed. I will have a data source on which
+                    roads I plan to use for the final project. This will show vacation places in the Outer Banks, and I
+                    hope to visit the Outer Banks in the timeframe between 2024 and 2028 (which means I hope to visit in
+                    one of those years).</p>
+            </div>
 </body>
-
 <!-- Add map legend -->
 <div id="map"></div>
-
-<!-- Add Bootstrap Javascript -->
+<!-- Add omnivore script-->
+<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>ƒ
+<!-- Add Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
-
-<!--Leaflet JS-->
+<!-- then Leaflet JS -->
 <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
-<!--App JS-->
 <script src="/js/app.js"></script>
-
-</html>
