@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #b7a48b;
+    background-color: #333;
     font-family: "Fira sans", sans-serif;
     font-weight: 300;
     font-size: 100%;
@@ -17,7 +17,6 @@ body {
 }
 
 h1 {
-    font-family: "Fira sans", sans-serif;
     font-weight: 700;
     font-size: calc(1.5rem + ((100vw – 400) / 400));
     color: "#2e2e2e";
