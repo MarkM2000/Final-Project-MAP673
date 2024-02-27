@@ -25,6 +25,7 @@ omnivore.csv("csv/outer-banks-hotels.csv")
         console.log(e.error[0].message);
     });
 
+// Start CSV layers
 function drawMap(data) {
     const options = {
         pointToLayer: function (feature, ll) {
