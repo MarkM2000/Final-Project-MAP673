@@ -17,7 +17,7 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{
 }).addTo(map);
 
 // Omnivore CSV file 
-omnivore.csv("csv/outer-banks-hotels.csv")
+omnivore.csv("csv/outer-bank-hotels.csv")
     .on("ready", function (e) {
         drawMap(e.target.toGeoJSON());
     })
