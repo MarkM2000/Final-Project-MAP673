@@ -17,7 +17,7 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{
 }).addTo(map);
 
 // Omnivore CSV file 
-omnivore.csv("csv/outer-bank-hotels.csv")
+omnivore.csv("csv/outer-banks-hotels.csv")
     .on("ready", function (e) {
         drawMap(e.target.toGeoJSON());
     })
@@ -38,11 +38,6 @@ function drawMap(data) {
 
     // create a separate layer from GeoJSON data
     const hotelLayer = L.geoJson(data, options).addTo(map);
-
-    // fit the bounds of the map to one of the layers
-    map.fitbounds(hotelLayer.getBounds(), {
-        padding: [50, 50],
-    });
 } // end drawMap()
 
     // create Leaflet control for the legend
