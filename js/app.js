@@ -50,6 +50,12 @@ function drawLegend(data) {
     // Draw labels
 }
 
+function resizeCircles(hotelLayer) {
+    // Update girl circle sizes with value selected in slider
+    // Update boy circle sizes with value selected in slider
+    // Retrieve data for info window
+}
+
 function sequenceUI(hotelLayer) {
     // create Leaflet control for the slider
     const sliderControl = L.control({
