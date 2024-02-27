@@ -38,4 +38,20 @@ function drawMap(data) {
 
     // create a separate layer from GeoJSON data
     const hotelLayer = L.geoJson(data, options).addTo(map);
+
+    sequenceUI();
 } // end drawMap()
+
+function drawLegend(data) {
+    // Loop through all schools to get all values
+    // Sort results
+    // Calculate the largest diameter
+    // Modify the CSS rules in the legend Leaflet control to draw two circles
+    // Draw labels
+  }
+
+  function sequenceUI(hotelLayer) {
+    // Create Leaflet control for the slider
+    // Select the slider's input and listen for change
+    // Resize the circles with updated grade level
+  }
