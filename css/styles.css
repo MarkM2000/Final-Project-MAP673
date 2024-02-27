@@ -62,3 +62,13 @@ h2 {
         width: 100%;
     }
 }
+
+/* Change opacity on hover over the icon class */
+
+a:hover {
+    text-decoration: underline;
+}
+
+.icon:hover {
+    opacity: .8;
+}
