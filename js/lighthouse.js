@@ -59,7 +59,7 @@ for (var i = 0; i < hotspots.length; i++) {
     // assign a string, wrapping the name of the place within two HTML bold tags
     var popup = `<h3>${hotspots[i].name}</h3>
     <p>${props.location}</p>
-    <p><b>Link:</b>: <a href='${props.url}'>${props.url}</a></p>
+    <p><b>URL:</b>: <a href='${props.url}'>${props.url}</a></p>
 `
 
     var icon = L.icon({
