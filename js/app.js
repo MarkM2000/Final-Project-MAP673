@@ -17,4 +17,35 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{
 }).addTo(map);
 
 // Omnivore CSV file 
-omnivore.csv();
+omnivore.csv("csv/outer-banks-hotels.csv")
+    .on("ready", function (e) {
+        drawMap(e.target.toGeoJSON());
+    })
+    .on("error", function (e) {
+        console.log(e.error[0].message);
+    });
+
+function drawMap(data) {
+    const options = {
+        pointToLayer: function (feature, ll) {
+            return L.circleMarker(ll, {
+                opacity: 1,
+                weight: 2,
+                fillOpacity: 0,
+            });
+        },
+    };
+
+    // create a separate layer from GeoJSON data
+    const hotelLayer = L.geoJson(data, options).addTo(map);
+
+    // fit the bounds of the map to one of the layers
+    map.fitbounds(hotelLayer.getBounds(), {
+        padding: [50, 50],
+    });
+} // end drawMap()
+
+    // create Leaflet control for the legend
+    const legendControl = L.control({
+        position: "bottomright",
+    });
