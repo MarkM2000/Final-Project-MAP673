@@ -38,5 +38,7 @@ function drawMap(data) {
 
     // create a separate layer from GeoJSON data
     const hotelLayer = L.geoJson(data, options).addTo(map);
+
+    sequenceUI(hotelLayer);
 } // end drawMap()
 
