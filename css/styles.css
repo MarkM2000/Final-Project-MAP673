@@ -66,22 +66,18 @@ p {
 }
 
 /* Modify Leaflet's default popup style */
-
 .leaflet-popup-content h3 {
-    font-family: "Fira Sans";
+    font-family: "Fira Sans", serif;
     font-size: 1.3em;
     margin-bottom: 6px;
-}
-
-.leaflet-popup-content p {
+  }
+  .leaflet-popup-content p {
     margin: 3px 0 6px;
     font-size: 1.1em;
-}
-
-.leaflet-popup-content a {
-    font-family: "Fira Sans";
+  }
+  .leaflet-popup-content a {
     font-weight: normal;
-}
+  }
 
 
 @media screen and (max-width: 900px) {
