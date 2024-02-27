@@ -39,8 +39,6 @@ function drawMap(data) {
 
     // create a separate layer from GeoJSON data
     const hotelLayer = L.geoJson(data, options).addTo(map);
-
-    sequenceUI();
 } // end drawMap()
 
 function drawLegend(data) {
@@ -49,29 +47,4 @@ function drawLegend(data) {
     // Calculate the largest diameter
     // Modify the CSS rules in the legend Leaflet control to draw two circles
     // Draw labels
-}
-
-function resizeCircles(hotelLayer) {
-    // Update girl circle sizes with value selected in slider
-    // Update boy circle sizes with value selected in slider
-    // Retrieve data for info window
-}
-
-function sequenceUI(hotelLayer) {
-    // create Leaflet control for the slider
-    const sliderControl = L.control({
-        position: "bottomleft",
-    });
-
-    sliderControl.onAdd = function (map) {
-        const controls = L.DomUtil.get("slider");
-
-        L.DomEvent.disableScrollPropagation(controls);
-        L.DomEvent.disableClickPropagation(controls);
-
-        return controls;
-    };
-
-    // add it to the map
-    sliderControl.addTo(map);
 }
