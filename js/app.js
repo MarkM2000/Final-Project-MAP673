@@ -48,10 +48,23 @@ function drawLegend(data) {
     // Calculate the largest diameter
     // Modify the CSS rules in the legend Leaflet control to draw two circles
     // Draw labels
-  }
+}
 
-  function sequenceUI(hotelLayer) {
-    // Create Leaflet control for the slider
-    // Select the slider's input and listen for change
-    // Resize the circles with updated grade level
-  }
+function sequenceUI(hotelLayer) {
+    // create Leaflet control for the slider
+    const sliderControl = L.control({
+        position: "bottomleft",
+    });
+
+    sliderControl.onAdd = function (map) {
+        const controls = L.DomUtil.get("slider");
+
+        L.DomEvent.disableScrollPropagation(controls);
+        L.DomEvent.disableClickPropagation(controls);
+
+        return controls;
+    };
+
+    // add it to the map
+    sliderControl.addTo(map);
+}
