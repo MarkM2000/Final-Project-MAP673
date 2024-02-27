@@ -39,8 +39,3 @@ function drawMap(data) {
     // create a separate layer from GeoJSON data
     const hotelLayer = L.geoJson(data, options).addTo(map);
 } // end drawMap()
-
-// create Leaflet control for the legend
-const legendControl = L.control({
-    position: "bottomright",
-});
