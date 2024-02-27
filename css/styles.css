@@ -55,14 +55,6 @@ h2 {
     display: block;
 }
 
-@media screen and (max-width: 900px) {
-
-    .first-column,
-    .second-column {
-        width: 100%;
-    }
-}
-
 /* Change opacity on hover over the icon class */
 
 a:hover {
@@ -71,4 +63,31 @@ a:hover {
 
 .icon:hover {
     opacity: .8;
+}
+
+/* Modify Leaflet's default popup style */
+
+.leaflet-popup-content h3 {
+    font-family: "Fira Sans";
+    font-size: 1.3em;
+    margin-bottom: 6px;
+}
+
+.leaflet-popup-content p {
+    margin: 3px 0 6px;
+    font-size: 1.1em;
+}
+
+.leaflet-popup-content a {
+    font-family: "Fira Sans";
+    font-weight: normal;
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .first-column,
+    .second-column {
+        width: 100%;
+    }
 }
