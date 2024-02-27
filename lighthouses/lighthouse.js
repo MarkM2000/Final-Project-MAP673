@@ -2,7 +2,6 @@
 var hotspots = [{
     name: "Bodie Island Lighthouse",
     properties: {
-        image: "https://commons.wikimedia.org/wiki/File:Bodie_Island_Lighthouse,_Cape_Hatteras_National_Seashore,_Outer_Banks,_North_Carolina_(14432018464).jpg",
         location: "Bodie Island",
         coordinates: [35.818554, -75.563309],
         url: 'https://www.nps.gov/caha/planyourvisit/bils.htm',
