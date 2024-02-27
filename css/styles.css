@@ -33,6 +33,16 @@ h2 {
     font-style: normal;
 }
 
+h3 {
+    font-family: "Fira Sans";
+    font-size: 2.5em;
+    font-weight: 900;
+    /* addition here */
+    letter-spacing: 0.04em;
+    color: #000000
+}
+
+
 #map {
     width: 100%;
     height: 600px;
