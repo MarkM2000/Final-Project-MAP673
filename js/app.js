@@ -1,6 +1,6 @@
 var map = L.map('map', {
     zoomSnap: .1,
-    center: [35.233333, -75.530278],
+    center: [35.5585, -75.4665],
     zoom: 10,
     minZoom: 6,
 });
