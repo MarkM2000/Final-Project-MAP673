@@ -49,3 +49,8 @@ h2 {
     z-index: 5000;
     opacity: 0.9;
 }
+
+.caption {
+    margin: 0 0 20px 0;
+    display: block;
+}
