@@ -16,4 +16,5 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{
     maxZoom: 18
 }).addTo(map);
 
+// Omnivore CSV file 
 omnivore.csv();
