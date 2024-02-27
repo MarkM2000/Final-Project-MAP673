@@ -54,3 +54,11 @@ h2 {
     margin: 0 0 20px 0;
     display: block;
 }
+
+@media screen and (max-width: 900px) {
+
+    .first-column,
+    .second-column {
+        width: 100%;
+    }
+}
