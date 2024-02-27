@@ -64,7 +64,7 @@ for (var i = 0; i < hotspots.length; i++) {
 
     var icon = L.icon({
         iconUrl: props.icon,
-        iconSize: [30, 30],
+        iconSize: [20, 20],
         popupAnchor: [0, -22],
         className: "icon"
     });
