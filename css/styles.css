@@ -61,11 +61,6 @@ p {
 }
 
 /* Change opacity on hover over the icon class */
-
-a:hover {
-    text-decoration: underline;
-}
-
 .icon:hover {
     opacity: .8;
 }
