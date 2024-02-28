@@ -35,7 +35,6 @@ function drawMap(data) {
                 fillOpacity: 0,
             });
         },
-
         onEachFeature: function (feature, layer) {
             layer.bindTooltip(layer.feature.properties.NAME);
 
