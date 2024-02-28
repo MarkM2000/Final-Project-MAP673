@@ -24,6 +24,7 @@ var hotspots = [{
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/First_Flight_Memorial_5.jpg/256px-First_Flight_Memorial_5.jpg",
         location: "Kill Devil Hills",
         coordinates: [36.0143, -75.6679],
+        information: "This granite monument honors the Wright Brothers, who conducted the first successful air flight.",
         url: 'https://www.nps.gov/wrbr/index.htm',
         icon: '../svg/monument-15.svg'
     }
@@ -39,6 +40,7 @@ for (var i = 0; i < hotspots.length; i++) {
     var popup = `<h3>${hotspots[i].name}</h3>
     <img src='${props.image}'>
     <p>${props.location}</p>
+    <p>${props.information}</p>
     <p><b>URL</b>: <a href='${props.url}'>Link</a></p>
 `
 
