@@ -2,6 +2,7 @@
 var hotspots = [{
     name: "Bodie Island Lighthouse",
     properties: {
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bodie_Island_Lighthouse%2C_Cape_Hatteras_National_Seashore%2C_Outer_Banks%2C_North_Carolina_%2814432018464%29.jpg/256px-Bodie_Island_Lighthouse%2C_Cape_Hatteras_National_Seashore%2C_Outer_Banks%2C_North_Carolina_%2814432018464%29.jpg",
         location: "Bodie Island",
         coordinates: [35.818554, -75.563309],
         url: 'https://www.nps.gov/caha/planyourvisit/bils.htm',
@@ -58,6 +59,7 @@ for (var i = 0; i < hotspots.length; i++) {
 
     // assign a string, wrapping the name of the place within two HTML bold tags
     var popup = `<h3>${hotspots[i].name}</h3>
+    <img src='${props.image}'>
     <p>${props.location}</p>
     <p><b>URL</b>: <a href='${props.url}'>Link</a></p>
 `
