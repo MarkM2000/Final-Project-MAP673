@@ -29,6 +29,43 @@ var hotspots = [{
     }
 }]
 
+var bounds = L.latLngBounds();
+
+for (var i = 0; i < hotspots.length; i++) {
+    var props = hotspots[i].properties;
+    console.log(props);
+
+    // assign a string, wrapping the name of the place within two HTML bold tags
+    var popup = `<h3>${hotspots[i].name}</h3>
+    <img src='${props.image}'>
+    <p>${props.location}</p>
+    <p><b>URL</b>: <a href='${props.url}'>Link</a></p>
+`
+
+    var icon = L.icon({
+        iconUrl: props.icon,
+        iconSize: [20, 20],
+        popupAnchor: [0, -22],
+        className: "icon"
+    });
+
+    var marker = L.marker(hotspots[i].properties.coordinates, {
+        icon: icon
+    })
+        .addTo(map)
+        .bindPopup(popup);
+
+    //  Extend the bounds as features are added
+    bounds.extend(hotspots[i].properties.coordinates)
+
+    marker.on("mouseover", function () {
+        this.openPopup();
+    });
+    marker.on("mouseout", function () {
+        this.closePopup();
+    });
+}
+
 // Omnivore CSV file 
 omnivore.csv("csv/outer-banks-hotels.csv")
     .on("ready", function (e) {
