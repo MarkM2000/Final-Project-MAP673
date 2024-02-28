@@ -16,6 +16,19 @@ L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{
     maxZoom: 18
 }).addTo(map);
 
+// Hotspots
+/// This hotspot will feature other attractions besides lighthouses.
+var hotspots = [{
+    name: "Wright Brothers National Memorial",
+    properties: {
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/First_Flight_Memorial_5.jpg/256px-First_Flight_Memorial_5.jpg",
+        location: "Kill Devil Hills",
+        coordinates: [36.0143, -75.6679],
+        url: 'https://www.nps.gov/wrbr/index.htm',
+        icon: 'https://icons8.com/icon/8659/monument'
+    }
+}]
+
 // Omnivore CSV file 
 omnivore.csv("csv/outer-banks-hotels.csv")
     .on("ready", function (e) {
