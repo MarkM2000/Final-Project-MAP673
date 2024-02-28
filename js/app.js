@@ -35,6 +35,10 @@ function drawMap(data) {
                 fillOpacity: 0,
             });
         },
+
+        onEachFeature: function (feature, layer) {
+            console.log(features.properties)
+        }
     };
 
     // create a separate layer from GeoJSON data
