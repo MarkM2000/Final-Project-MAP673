@@ -44,7 +44,7 @@ function drawMap(data) {
     };
 
     // create a separate layer from GeoJSON data
-    const hotelLayer = L.geoJson(data, options).addTo(map);
+    const hotels = L.geoJson(data, options).addTo(map);
 } // end drawMap()
 
 function drawLegend(data) {
