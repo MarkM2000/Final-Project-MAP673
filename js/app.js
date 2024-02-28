@@ -37,6 +37,8 @@ function drawMap(data) {
         },
 
         onEachFeature: function (feature, layer) {
+            layer.bindTooltip(layer.feature.properties.NAME);
+
             console.log(feature.properties)
         }
     };
