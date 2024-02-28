@@ -25,7 +25,7 @@ var hotspots = [{
         location: "Kill Devil Hills",
         coordinates: [36.0143, -75.6679],
         url: 'https://www.nps.gov/wrbr/index.htm',
-        icon: 'https://icons8.com/icon/8659/monument'
+        icon: '../svg/monument-15.svg'
     }
 }]
 
