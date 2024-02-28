@@ -37,7 +37,7 @@ function drawMap(data) {
         },
 
         onEachFeature: function (feature, layer) {
-            console.log(features.properties)
+            console.log(feature.properties)
         }
     };
 
