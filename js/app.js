@@ -39,6 +39,10 @@ function drawMap(data) {
             layer.bindTooltip(layer.feature.properties.NAME);
 
             console.log(feature.properties)
+
+            console.log(feature.properties.ADDRESS)
+            
+            console.log(feature.properties.URL)
         }
     };
 
