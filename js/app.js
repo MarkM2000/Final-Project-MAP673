@@ -29,10 +29,10 @@ omnivore.csv("csv/outer-banks-hotels.csv")
 function drawMap(data) {
     const options = {
         pointToLayer: function (feature, ll) {
-            return L.circleMarker(ll, {
+            return L.marker(ll, {
                 opacity: 1,
                 weight: 2,
-                fillOpacity: 0,
+                icon: icon
             });
         },
         onEachFeature: function (feature, layer) {
