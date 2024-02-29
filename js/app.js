@@ -36,12 +36,21 @@ function drawMap(data) {
             });
         },
         onEachFeature: function (feature, layer) {
-            layer.bindTooltip(layer.feature.properties.NAME);
+            const props = feature.properties
+
+            // assign a string, wrapping the name of the place within two HTML bold tags
+            var popup = `<h3>${feature.properties.NAME}</h3>
+    <p>${props.NAME}</p>
+    <p>${props.ADDRESS}</p>
+    <p>${props.AREA}</p>
+    <p><b>URL</b>: <a href='${props.url}'>Visit website</a></p>
+`
+            layer.bindTooltip(popup);
 
             console.log(feature.properties)
 
             console.log(feature.properties.ADDRESS)
-            
+
             console.log(feature.properties.URL)
         }
     };
