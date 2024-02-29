@@ -116,6 +116,7 @@ var hotspots = [{
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jennette%27s_Pier-3744_%2836939703020%29.jpg/256px-Jennette%27s_Pier-3744_%2836939703020%29.jpg",
         location: "Nags Head",
         coordinates: [35.910065, -75.595580],
+        information: "This eco-friendly pier allows fishers to rent equipment and other supplies and offers fishing lesosns.",
         url: 'https://www.ncaquariums.com/jennettes-pier',
         icon: 'https://icons8.com/icon/VDl_WNB3ew7x/pier',
     }
