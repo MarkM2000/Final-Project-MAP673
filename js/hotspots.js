@@ -113,7 +113,7 @@ var hotspots = [{
 }, {
     name: "Jennette's Pier",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268137700%29.jpg/256px-Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268137700%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jennette%27s_Pier-3744_%2836939703020%29.jpg/256px-Jennette%27s_Pier-3744_%2836939703020%29.jpg",
         location: "Nags Head",
         coordinates: [35.910065, -75.595580],
         url: 'https://www.ncaquariums.com/jennettes-pier',
