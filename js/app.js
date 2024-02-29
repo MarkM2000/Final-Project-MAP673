@@ -25,7 +25,7 @@ omnivore.csv("csv/outer-banks-hotels.csv")
         console.log(e.error[0].message);
     });
 
-var icon = L.icon({
+var iconhotels = L.icon({
     iconUrl: "../svg/monument-15.svg",
     iconSize: [20, 20],
     popupAnchor: [0, -22],
@@ -37,10 +37,7 @@ function drawMap(data) {
     const options = {
         pointToLayer: function (feature, ll) {
             return L.marker(ll, {
-                opacity: 1,
-                weight: 2,
-                fillOpacity: 0,
-                icon: icon
+                icon: iconhotels
             });
         },
         onEachFeature: function (feature, layer) {
