@@ -118,7 +118,7 @@ var hotspots = [{
         coordinates: [35.910065, -75.595580],
         information: "This eco-friendly pier allows fishers to rent equipment and other supplies and offers fishing lesosns.",
         url: 'https://www.ncaquariums.com/jennettes-pier',
-        icon: 'https://icons8.com/icon/VDl_WNB3ew7x/pier',
+        icon: '../svg/pier.svg',
     }
 }];
 
