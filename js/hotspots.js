@@ -98,3 +98,54 @@ map.fitBounds(bounds);
 
 // variable to reference the zero index
 var i = 0;
+
+// Create hotspots for other attractions
+var hotspots = [{
+    name: "Wright Brothers National Memorial",
+    properties: {
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/First_Flight_Memorial_5.jpg/256px-First_Flight_Memorial_5.jpg",
+        location: "Kill Devil Hills",
+        coordinates: [36.0143, -75.6679],
+        information: "This granite monument honors the Wright Brothers, who conducted the first successful air flight.",
+        url: 'https://www.nps.gov/wrbr/index.htm',
+        icon: '../svg/monument-15.svg'
+    }
+}]
+
+var bounds = L.latLngBounds();
+
+for (var i = 0; i < hotspots.length; i++) {
+    var props = hotspots[i].properties;
+    console.log(props);
+
+    // assign a string, wrapping the name of the place within two HTML bold tags
+    var popup = `<h3>${hotspots[i].name}</h3>
+    <img src='${props.image}'>
+    <p>${props.location}</p>
+    <p>${props.information}</p>
+    <p><b>URL</b>: <a href='${props.url}'>Link</a></p>
+`
+
+    var icon = L.icon({
+        iconUrl: props.icon,
+        iconSize: [20, 20],
+        popupAnchor: [0, -22],
+        className: "icon"
+    });
+
+    var marker = L.marker(hotspots[i].properties.coordinates, {
+        icon: icon
+    })
+        .addTo(map)
+        .bindPopup(popup);
+
+    //  Extend the bounds as features are added
+    bounds.extend(hotspots[i].properties.coordinates)
+
+    marker.on("mouseover", function () {
+        this.openPopup();
+    });
+    marker.on("mouseout", function () {
+        this.closePopup();
+    });
+}
