@@ -29,10 +29,10 @@ omnivore.csv("csv/outer-banks-hotels.csv")
 function drawMap(data) {
     const options = {
         pointToLayer: function (feature, ll) {
-            return L.marker(ll, {
+            return L.circleMarker(ll, {
                 opacity: 1,
                 weight: 2,
-                icon: icon
+                fillOpacity: 0,
             });
         },
         onEachFeature: function (feature, layer) {
@@ -45,8 +45,8 @@ function drawMap(data) {
     <p>${props.AREA}</p>
     <p><b>URL</b>: <a href='${props.url}'>Visit website</a></p>
 `
-            layer.bindTooltip(popup);
 
+            layer.bindTooltip(popup);
             console.log(feature.properties)
 
             console.log(feature.properties.ADDRESS)
