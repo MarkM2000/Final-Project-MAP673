@@ -1,3 +1,22 @@
+// Fit page to window
+fitLayout();
+
+// window.onresize = function () {
+//     location.reload();
+//   };
+
+window.addEventListener("resize", fitLayout);
+
+function fitLayout() {
+  // set global variables for header, map container, and footer
+  const header = document.querySelector("#content");
+  const mapContainer = document.querySelector("#map");
+
+  // set map height to fill window
+  mapContainer.style.height =
+    window.innerHeight - header.offsetHeight + "px";
+}
+
 var map = L.map('map', {
     zoomSnap: .1,
     center: [35.3737, -75.4953],
