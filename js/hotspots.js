@@ -108,7 +108,7 @@ var hotspots = [{
         coordinates: [36.0143, -75.6679],
         information: "This granite monument honors the Wright Brothers, who conducted the first successful air flight.",
         url: 'https://www.nps.gov/wrbr/index.htm',
-        icon: '../svg/monument-15.svg'
+        icon: '../svg/attraction-15.svg'
     }
 }, {
     name: "Jennette's Pier",
@@ -118,7 +118,7 @@ var hotspots = [{
         coordinates: [35.910065, -75.595580],
         information: "This eco-friendly pier allows fishers to rent equipment and other supplies and offers fishing lesosns.",
         url: 'https://www.ncaquariums.com/jennettes-pier',
-        icon: '../svg/pier.svg',
+        icon: '../svg/attraction-15.svg',
     }
 }, {
     name: "North Carolina Aquarium on Roanoke Island",
@@ -128,7 +128,7 @@ var hotspots = [{
         coordinates: [35.91757, -75.70392],
         information: "Come visit this aquarium on Roanoke Island in Manteo and visit the exhibits and fun experiences.",
         url: 'https://www.ncaquariums.com/roanoke-island',
-        icon: '../svg/aquarium-15.svg',
+        icon: '../svg/attraction-15.svg',
     }
 }];
 
