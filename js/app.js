@@ -70,7 +70,7 @@ function drawMap(data) {
     <p><b>URL</b>: <a href='${props.url}'>Visit website</a></p>
 `
 
-            layer.bindTooltip(popup);
+            layer.bindPopup(popup);
             console.log(feature.properties)
 
             console.log(feature.properties.ADDRESS)
@@ -94,7 +94,7 @@ var hotels = L.geoJson(hotels, {
         });
     },
     onEachFeature: function (feature, layer) {
-        layer.bindTooltip(layer.feature.properties.name);
+        layer.bindPopup(layer.feature.properties.name);
 
         layer.on('mouseover', function () {
             // code goes in here
