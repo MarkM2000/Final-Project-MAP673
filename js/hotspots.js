@@ -130,6 +130,16 @@ var hotspots = [{
         url: 'https://www.ncaquariums.com/roanoke-island',
         icon: '../svg/attraction-15.svg',
     }
+}, {
+    name: "Jockey's Ridge State Park",
+    properties: {
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Jockey%27s_Ridge_State_Park_Nags_Head_39.jpg/256px-Jockey%27s_Ridge_State_Park_Nags_Head_39.jpg",
+        location: "Nags Head",
+        coordinates: [35.9627, -75.6340],
+        information: "Visit this National Natural Landmark (NNL)-designated sand dunes park in the Nags Head area that features the tallest sand dune on the Atlantic Coast.",
+        url: 'https://www.ncparks.gov/state-parks/jockeys-ridge-state-park',
+        icon: '../svg/attraction-15.svg',
+    }
 }];
 
 var bounds = L.latLngBounds();
