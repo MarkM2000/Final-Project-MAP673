@@ -123,7 +123,7 @@ var hotspots = [{
 }, {
     name: "North Carolina Aquarium on Roanoke Island",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Avalon_Fishing_Pier%2C_Nags_Head%2C_North_Carolina_-_panoramio.jpg/256px-Avalon_Fishing_Pier%2C_Nags_Head%2C_North_Carolina_-_panoramio.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NC_Aquarium_at_Roanoke_Island.jpg/256px-NC_Aquarium_at_Roanoke_Island.jpg",
         location: "Manteo",
         coordinates: [35.91757, -75.70392],
         information: "Come visit this aquarium on Roanoke Island in Manteo and visit the exhibits and fun experiences.",
