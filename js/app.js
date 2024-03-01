@@ -1,3 +1,22 @@
+// Fit page to window
+fitLayout();
+
+// window.onresize = function () {
+//     location.reload();
+//   };
+
+window.addEventListener("resize", fitLayout);
+
+function fitLayout() {
+  // set global variables for header, map container, and footer
+  const header = document.querySelector("#content");
+  const mapContainer = document.querySelector("#map");
+
+  // set map height to fill window
+  mapContainer.style.height =
+    window.innerHeight - header.offsetHeight + "px";
+}
+
 var map = L.map('map', {
     zoomSnap: .1,
     center: [35.3737, -75.4953],
@@ -51,7 +70,7 @@ function drawMap(data) {
     <p><b>URL</b>: <a href='${props.url}'>Visit website</a></p>
 `
 
-            layer.bindTooltip(popup);
+            layer.bindPopup(popup);
             console.log(feature.properties)
 
             console.log(feature.properties.ADDRESS)
@@ -64,30 +83,30 @@ function drawMap(data) {
     const hotels = L.geoJson(data, options).addTo(map);
 } // end drawMap()
 
-var hotels = L.geoJson(hotels, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-            color: '#613c33',
-            weight: 1,
-            fillColor: '#613c33',
-            fillOpacity: .8,
-            radius: 10
-        });
-    },
-    onEachFeature: function (feature, layer) {
-        layer.bindTooltip(layer.feature.properties.name);
+// var hotels = L.geoJson(hotels, {
+//     pointToLayer: function (feature, latlng) {
+//         return L.circleMarker(latlng, {
+//             color: '#613c33',
+//             weight: 1,
+//             fillColor: '#613c33',
+//             fillOpacity: .8,
+//             radius: 10
+//         });
+//     },
+//     onEachFeature: function (feature, layer) {
+//         layer.bindPopup(layer.feature.properties.name);
 
-        layer.on('mouseover', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: 'red'
-            });
-        });
-        layer.on('mouseout', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: '#613c33'
-            });
-        });
-    }
-}).addTo(map);
+//         layer.on('mouseover', function () {
+//             // code goes in here
+//             layer.setStyle({
+//                 fillColor: 'red'
+//             });
+//         });
+//         layer.on('mouseout', function () {
+//             // code goes in here
+//             layer.setStyle({
+//                 fillColor: '#613c33'
+//             });
+//         });
+//     }
+// }).addTo(map);
