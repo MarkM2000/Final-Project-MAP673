@@ -85,16 +85,14 @@ for (var i = 0; i < hotspots.length; i++) {
     //  Extend the bounds as features are added
     bounds.extend(hotspots[i].properties.coordinates)
 
-    marker.on("mouseover", function () {
-        this.openPopup();
-    });
-    marker.on("mouseout", function () {
-        this.closePopup();
-    });
+    // marker.on("mouseover", function () {
+    //     this.openPopup();
+    // });
+    // marker.on("mouseout", function () {
+    //     this.closePopup();
+    // });
 }
 
-// Fit map to the extent of hotspots
-map.fitBounds(bounds);
 
 // variable to reference the zero index
 var i = 0;
@@ -132,7 +130,7 @@ var hotspots = [{
     }
 }];
 
-var bounds = L.latLngBounds();
+// var bounds = L.latLngBounds();
 
 for (var i = 0; i < hotspots.length; i++) {
     var props = hotspots[i].properties;
@@ -162,3 +160,10 @@ for (var i = 0; i < hotspots.length; i++) {
     //  Extend the bounds as features are added
     bounds.extend(hotspots[i].properties.coordinates)
 }
+
+
+// Fit map to the extent of hotspots
+map.fitBounds(bounds, {
+    animate: false,
+    padding: [50, 50]   
+});

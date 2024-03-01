@@ -83,30 +83,30 @@ function drawMap(data) {
     const hotels = L.geoJson(data, options).addTo(map);
 } // end drawMap()
 
-var hotels = L.geoJson(hotels, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-            color: '#613c33',
-            weight: 1,
-            fillColor: '#613c33',
-            fillOpacity: .8,
-            radius: 10
-        });
-    },
-    onEachFeature: function (feature, layer) {
-        layer.bindPopup(layer.feature.properties.name);
+// var hotels = L.geoJson(hotels, {
+//     pointToLayer: function (feature, latlng) {
+//         return L.circleMarker(latlng, {
+//             color: '#613c33',
+//             weight: 1,
+//             fillColor: '#613c33',
+//             fillOpacity: .8,
+//             radius: 10
+//         });
+//     },
+//     onEachFeature: function (feature, layer) {
+//         layer.bindPopup(layer.feature.properties.name);
 
-        layer.on('mouseover', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: 'red'
-            });
-        });
-        layer.on('mouseout', function () {
-            // code goes in here
-            layer.setStyle({
-                fillColor: '#613c33'
-            });
-        });
-    }
-}).addTo(map);
+//         layer.on('mouseover', function () {
+//             // code goes in here
+//             layer.setStyle({
+//                 fillColor: 'red'
+//             });
+//         });
+//         layer.on('mouseout', function () {
+//             // code goes in here
+//             layer.setStyle({
+//                 fillColor: '#613c33'
+//             });
+//         });
+//     }
+// }).addTo(map);
