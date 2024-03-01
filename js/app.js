@@ -26,7 +26,7 @@ omnivore.csv("csv/outer-banks-hotels.csv")
     });
 
 var iconhotels = L.icon({
-    iconUrl: "../svg/monument-15.svg",
+    iconUrl: "../svg/hotel.svg",
     iconSize: [20, 20],
     popupAnchor: [0, -22],
     className: "icon"
