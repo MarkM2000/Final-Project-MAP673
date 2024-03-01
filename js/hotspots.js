@@ -121,14 +121,14 @@ var hotspots = [{
         icon: '../svg/pier.svg',
     }
 }, {
-    name: "Avalon Pier",
+    name: "North Carolina Aquarium on Roanoke Island",
     properties: {
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Avalon_Fishing_Pier%2C_Nags_Head%2C_North_Carolina_-_panoramio.jpg/256px-Avalon_Fishing_Pier%2C_Nags_Head%2C_North_Carolina_-_panoramio.jpg",
-        location: "Kill Devil Hills",
-        coordinates: [36.04422, -75.674550],
-        information: "This eco-friendly pier allows fishers to rent equipment and other supplies and offers fishing lesosns.",
-        url: 'https://avalonpier.com',
-        icon: '../svg/pier.svg',
+        location: "Manteo",
+        coordinates: [335.91757, -75.70392],
+        information: "Come visit this aquarium on Roanoke Island in Manteo and visit the exhibits and fun experiences.",
+        url: 'https://www.ncaquariums.com/roanoke-island',
+        icon: '../svg/aquarium-15.svg',
     }
 }];
 
