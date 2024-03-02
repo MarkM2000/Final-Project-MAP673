@@ -20,7 +20,7 @@ var hotspots = [{
 }, {
     name: "Ocracoke Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ocracoke_Lighthouse_%2828698468638%29.jpg/256px-Ocracoke_Lighthouse_%2828698468638%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ocracoke_-_Ocracoke_Light_-_20140731184254.jpg/256px-Ocracoke_-_Ocracoke_Light_-_20140731184254.jpg",
         location: "Ocracoke Island",
         coordinates: [35.108982, -75.986032],
         url: 'https://www.nps.gov/caha/planyourvisit/ols.htm',
