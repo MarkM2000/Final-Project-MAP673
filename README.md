@@ -11,7 +11,9 @@ You will likely have to Zoom on the map if you want to view a specific area on t
 # Ways the map was created
 Created a ```outer-banks-hotels.csv``` file along with ```app.js``` and ```hotspots.js``` files.
 
-Used the omnivore.csv feature on the ```app.js``` file.
+Got the ```app.js``` and ```hotspots.js``` files set up by using ```<script src="/js/app.js"></script>``` and ```<script src="/js/hotspots.js"></script>```.
+
+Used the omnivore.csv feature on the ```app.js``` file. It looks something like this and it includes the ```outer-banks-hotels.csv``` file:
 
 ```
 omnivore.csv("csv/outer-banks-hotels.csv")
