@@ -138,6 +138,16 @@ var hotspots = [{
         url: 'https://www.ncparks.gov/state-parks/jockeys-ridge-state-park',
         icon: '../svg/attraction-15.svg',
     }
+}, {
+    name: "Chicamacomico Life-Saving Station",
+    properties: {
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Chicamacomico_Life_Saving_Station_02.jpg/256px-Chicamacomico_Life_Saving_Station_02.jpg",
+        location: "Rodanthe",
+        coordinates: [35.59569, -75.46632],
+        information: "Visit this former station-turned museum on Hatteras Island.",
+        url: 'https://chicamacomico.org',
+        icon: '../svg/attraction-15.svg',
+    }
 }];
 
 // var bounds = L.latLngBounds();
@@ -175,5 +185,5 @@ for (var i = 0; i < hotspots.length; i++) {
 // Fit map to the extent of hotspots
 map.fitBounds(bounds, {
     animate: false,
-    padding: [50, 50]   
+    padding: [50, 50]
 });
