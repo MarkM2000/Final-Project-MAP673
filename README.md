@@ -9,8 +9,9 @@ The purpose of my project will be to use what I have done in the past 3 mockups 
 You will likely have to Zoom on the map if you want to view a specific area on the map such as the Jennette's Pier.
 
 # Ways the map was created
+Created a ```outer-banks-hotels.csv``` file along with ```app.js``` and ```hotspots.js``` files.
 
-Used the omnivore.csv feature.
+Used the omnivore.csv feature on the ```app.js``` file.
 
 ```
 omnivore.csv("csv/outer-banks-hotels.csv")
