@@ -2,7 +2,7 @@
 var hotspots = [{
     name: "Bodie Island Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bodie_Island_Lighthouse%2C_Cape_Hatteras_National_Seashore%2C_Outer_Banks%2C_North_Carolina_%2814432018464%29.jpg/256px-Bodie_Island_Lighthouse%2C_Cape_Hatteras_National_Seashore%2C_Outer_Banks%2C_North_Carolina_%2814432018464%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bodie_Island_Lighthouse%2C_Cape_Hatteras_National_Seashore%2C_Outer_Banks%2C_North_Carolina_%2814432018464%29.jpg/200px-Bodie_Island_Lighthouse%2C_Cape_Hatteras_National_Seashore%2C_Outer_Banks%2C_North_Carolina_%2814432018464%29.jpg",
         location: "Bodie Island",
         coordinates: [35.818554, -75.563309],
         url: 'https://www.nps.gov/caha/planyourvisit/bils.htm',
@@ -11,7 +11,7 @@ var hotspots = [{
 }, {
     name: "Cape Hatteras Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268137700%29.jpg/256px-Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268137700%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268137700%29.jpg/200px-Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268137700%29.jpg",
         location: "Hatteras Island",
         coordinates: [35.250533, -75.528806],
         url: 'https://www.nps.gov/caha/planyourvisit/chls.htm',
@@ -20,7 +20,7 @@ var hotspots = [{
 }, {
     name: "Ocracoke Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ocracoke_-_Ocracoke_Light_-_20140731184254.jpg/256px-Ocracoke_-_Ocracoke_Light_-_20140731184254.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ocracoke_-_Ocracoke_Light_-_20140731184254.jpg/200px-Ocracoke_-_Ocracoke_Light_-_20140731184254.jpg",
         location: "Ocracoke Island",
         coordinates: [35.108982, -75.986032],
         url: 'https://www.nps.gov/caha/planyourvisit/ols.htm',
@@ -29,7 +29,7 @@ var hotspots = [{
 }, {
     name: "Currituck Beach Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Currituckbeachlight.jpg/256px-Currituckbeachlight.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Currituckbeachlight.jpg/200px-Currituckbeachlight.jpg",
         location: "Corolla",
         coordinates: [36.376668, -75.830656],
         url: 'https://www.visitcurrituck.com/places/currituck-beach-light-house/',
@@ -38,7 +38,7 @@ var hotspots = [{
 }, {
     name: "Cape Lookout Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cape_Lookout_Lighthouse.jpg/256px-Cape_Lookout_Lighthouse.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cape_Lookout_Lighthouse.jpg/200px-Cape_Lookout_Lighthouse.jpg",
         location: "Cape Lookout",
         coordinates: [34.622742, -76.524529],
         url: 'https://www.nps.gov/calo/index.htm',
@@ -47,7 +47,7 @@ var hotspots = [{
 }, {
     name: "Roanoke Marshes Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Roanoke_Marshes_Light_Replica%2C_Manteo%2C_NC._%28Remake%29.jpg/256px-Roanoke_Marshes_Light_Replica%2C_Manteo%2C_NC._%28Remake%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Roanoke_Marshes_Light_Replica%2C_Manteo%2C_NC._%28Remake%29.jpg/200px-Roanoke_Marshes_Light_Replica%2C_Manteo%2C_NC._%28Remake%29.jpg",
         location: "Manteo",
         coordinates: [35.9082116, -75.6682721],
         url: 'https://www.manteonc.gov/visitors/roanoke-marshes-lighthouse',
