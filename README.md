@@ -125,3 +125,5 @@ for (var i = 0; i < hotspots.length; i++) {
     bounds.extend(hotspots[i].properties.coordinates)
 }
 ```
+
+To access the link to this project, click on <a href="https://markm2000.github.io/Final-Project-MAP673/">this link</a>.
