@@ -71,11 +71,6 @@ function drawMap(data) {
 `
 
             layer.bindPopup(popup);
-            console.log(feature.properties)
-
-            console.log(feature.properties.ADDRESS)
-
-            console.log(feature.properties.URL)
         }
     };
 
