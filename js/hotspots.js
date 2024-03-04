@@ -83,13 +83,6 @@ for (var i = 0; i < hotspots.length; i++) {
 
     //  Extend the bounds as features are added
     bounds.extend(hotspots[i].properties.coordinates)
-
-    // marker.on("mouseover", function () {
-    //     this.openPopup();
-    // });
-    // marker.on("mouseout", function () {
-    //     this.closePopup();
-    // });
 }
 
 
