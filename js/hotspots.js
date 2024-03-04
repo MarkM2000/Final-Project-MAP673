@@ -6,7 +6,7 @@ var hotspots = [{
         location: "Bodie Island",
         coordinates: [35.818554, -75.563309],
         url: 'https://www.nps.gov/caha/planyourvisit/bils.htm',
-        icon: '/svg/lighthouse-15.svg'
+        icon: 'svg/lighthouse-15.svg'
     }
 }, {
     name: "Cape Hatteras Lighthouse",
@@ -15,7 +15,7 @@ var hotspots = [{
         location: "Hatteras Island",
         coordinates: [35.250533, -75.528806],
         url: 'https://www.nps.gov/caha/planyourvisit/chls.htm',
-        icon: '/svg/lighthouse-15.svg',
+        icon: 'svg/lighthouse-15.svg',
     }
 }, {
     name: "Ocracoke Lighthouse",
@@ -24,7 +24,7 @@ var hotspots = [{
         location: "Ocracoke Island",
         coordinates: [35.108982, -75.986032],
         url: 'https://www.nps.gov/caha/planyourvisit/ols.htm',
-        icon: '/svg/lighthouse-15.svg',
+        icon: 'svg/lighthouse-15.svg',
     }
 }, {
     name: "Currituck Beach Lighthouse",
@@ -33,7 +33,7 @@ var hotspots = [{
         location: "Corolla",
         coordinates: [36.376668, -75.830656],
         url: 'https://www.visitcurrituck.com/places/currituck-beach-light-house/',
-        icon: '/svg/lighthouse-15.svg',
+        icon: 'svg/lighthouse-15.svg',
     }
 }, {
     name: "Cape Lookout Lighthouse",
@@ -42,7 +42,7 @@ var hotspots = [{
         location: "Cape Lookout",
         coordinates: [34.622742, -76.524529],
         url: 'https://www.nps.gov/calo/index.htm',
-        icon: '/svg/lighthouse-15.svg',
+        icon: 'svg/lighthouse-15.svg',
     }
 }, {
     name: "Roanoke Marshes Lighthouse",
@@ -51,7 +51,7 @@ var hotspots = [{
         location: "Manteo",
         coordinates: [35.9082116, -75.6682721],
         url: 'https://www.manteonc.gov/visitors/roanoke-marshes-lighthouse',
-        icon: '/svg/lighthouse-15.svg',
+        icon: 'svg/lighthouse-15.svg',
     }
 }];
 
@@ -106,7 +106,7 @@ var hotspots = [{
         coordinates: [36.0143, -75.6679],
         information: "This granite monument honors the Wright Brothers, who conducted the first successful air flight.",
         url: 'https://www.nps.gov/wrbr/index.htm',
-        icon: '../svg/attraction-15.svg'
+        icon: 'svg/attraction-15.svg'
     }
 }, {
     name: "Jennette's Pier",
@@ -116,7 +116,7 @@ var hotspots = [{
         coordinates: [35.910065, -75.595580],
         information: "This eco-friendly pier allows fishers to rent equipment and other supplies and offers fishing lessons.",
         url: 'https://www.ncaquariums.com/jennettes-pier',
-        icon: '../svg/attraction-15.svg',
+        icon: 'svg/attraction-15.svg',
     }
 }, {
     name: "North Carolina Aquarium on Roanoke Island",
@@ -126,7 +126,7 @@ var hotspots = [{
         coordinates: [35.91757, -75.70392],
         information: "Come visit this aquarium on Roanoke Island in Manteo and visit the exhibits and fun experiences.",
         url: 'https://www.ncaquariums.com/roanoke-island',
-        icon: '../svg/attraction-15.svg',
+        icon: 'svg/attraction-15.svg',
     }
 }, {
     name: "Jockey's Ridge State Park",
@@ -136,7 +136,7 @@ var hotspots = [{
         coordinates: [35.9627, -75.6340],
         information: "Visit this National Natural Landmark (NNL)-designated sand dunes park in the Nags Head area that features the tallest sand dune on the Atlantic Coast.",
         url: 'https://www.ncparks.gov/state-parks/jockeys-ridge-state-park',
-        icon: '../svg/attraction-15.svg',
+        icon: 'svg/attraction-15.svg',
     }
 }, {
     name: "Chicamacomico Life-Saving Station",
@@ -146,7 +146,7 @@ var hotspots = [{
         coordinates: [35.59569, -75.46632],
         information: "Visit this former station-turned museum on Hatteras Island.",
         url: 'https://chicamacomico.org',
-        icon: '../svg/attraction-15.svg',
+        icon: 'svg/attraction-15.svg',
     }
 }];
 
