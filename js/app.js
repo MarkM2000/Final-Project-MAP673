@@ -1,10 +1,6 @@
 // Fit page to window
 fitLayout();
 
-// window.onresize = function () {
-//     location.reload();
-//   };
-
 window.addEventListener("resize", fitLayout);
 
 function fitLayout() {
