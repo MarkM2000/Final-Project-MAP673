@@ -6,7 +6,7 @@ var hotspots = [{
         location: "Bodie Island",
         coordinates: [35.818554, -75.563309],
         url: 'https://www.nps.gov/caha/planyourvisit/bils.htm',
-        icon: 'svg/lighthouse-15.svg'
+        icon: '/svg/lighthouse-15.svg'
     }
 }, {
     name: "Cape Hatteras Lighthouse",
@@ -15,7 +15,7 @@ var hotspots = [{
         location: "Hatteras Island",
         coordinates: [35.250533, -75.528806],
         url: 'https://www.nps.gov/caha/planyourvisit/chls.htm',
-        icon: 'svg/lighthouse-15.svg',
+        icon: '/svg/lighthouse-15.svg',
     }
 }, {
     name: "Ocracoke Lighthouse",
@@ -24,7 +24,7 @@ var hotspots = [{
         location: "Ocracoke Island",
         coordinates: [35.108982, -75.986032],
         url: 'https://www.nps.gov/caha/planyourvisit/ols.htm',
-        icon: 'svg/lighthouse-15.svg',
+        icon: '/svg/lighthouse-15.svg',
     }
 }, {
     name: "Currituck Beach Lighthouse",
@@ -33,7 +33,7 @@ var hotspots = [{
         location: "Corolla",
         coordinates: [36.376668, -75.830656],
         url: 'https://www.visitcurrituck.com/places/currituck-beach-light-house/',
-        icon: 'svg/lighthouse-15.svg',
+        icon: '/svg/lighthouse-15.svg',
     }
 }, {
     name: "Cape Lookout Lighthouse",
@@ -42,7 +42,7 @@ var hotspots = [{
         location: "Cape Lookout",
         coordinates: [34.622742, -76.524529],
         url: 'https://www.nps.gov/calo/index.htm',
-        icon: 'svg/lighthouse-15.svg',
+        icon: '/svg/lighthouse-15.svg',
     }
 }, {
     name: "Roanoke Marshes Lighthouse",
@@ -51,7 +51,7 @@ var hotspots = [{
         location: "Manteo",
         coordinates: [35.9082116, -75.6682721],
         url: 'https://www.manteonc.gov/visitors/roanoke-marshes-lighthouse',
-        icon: 'svg/lighthouse-15.svg',
+        icon: '/svg/lighthouse-15.svg',
     }
 }];
 
