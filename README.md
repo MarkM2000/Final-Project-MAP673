@@ -4,7 +4,7 @@ This repository will be the final project for MAP 673.
 Project Title: Outer Banks
 
 # Purpose
-The purpose of my project will be to use what I have done in the past 3 mockups and apply it to this project. The Outer Banks in North Carolina will be the main focus of this project. This map will feature three SVG (Scalable Vector Graphics) icons including a lighthouse svg, a customized hotel svg, and attraction svg. 
+This is the final project of the Outer Banks area of North Carolina. I have created three mockups leading up to the this project. The first mockup was done by sketch, my second mockup was done by Adobe Illustrator, and the third was done with a mockup index. The final project is focused on the Outer Banks, and I will use everything that I learned with each of the mockups.
 
 You will likely have to Zoom on the map if you want to view a specific area on the map such as the Jennette's Pier.
 
