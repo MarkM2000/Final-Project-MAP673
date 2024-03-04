@@ -60,7 +60,6 @@ var bounds = L.latLngBounds();
 
 for (var i = 0; i < hotspots.length; i++) {
     var props = hotspots[i].properties;
-    console.log(props);
 
     // assign a string, wrapping the name of the place within two HTML bold tags
     var popup = `<h3>${hotspots[i].name}</h3>
@@ -154,7 +153,6 @@ var hotspots = [{
 
 for (var i = 0; i < hotspots.length; i++) {
     var props = hotspots[i].properties;
-    console.log(props);
 
     // assign a string, wrapping the name of the place within two HTML bold tags
     var popup = `<h3>${hotspots[i].name}</h3>
