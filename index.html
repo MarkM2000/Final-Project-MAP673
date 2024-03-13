@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Outer Banks Project</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
         integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
@@ -18,52 +19,64 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="content">
-        <div class="col">
-            <h1>Outer Banks</h1>
-            <p>This is a map of the Outer Banks area in North Carolina. The area consists of several barrier islands on
-                the East Coast of North Carolina. It is home to six lighthouses along with vacation homes, beach
-                cottages, hotels, and several other notable tourist attractions such as the <a
-                    href=https://www.nps.gov/wrbr/index.htm>Wright Brothers National Memorial</a>. The area also
-                consists of many beaches where tourists can visit along with seashores and wildlife refuge areas that
-                protect their ecosystem.</p>
-            <h2>Features</h2>
-            <p>The final project features hotels, lighthouses, and other notable attractions in the Outer Banks
-                area of North Carolina. This project uses three SVG (Scalable Vector Graphics) icons: a
-                customized hotel SVG icon to represent the hotels, a lighthouse SVG to represent the lighthouses,
-                and an attraction SVG to represent other notable attractions in the Outer Banks. I did this map on
-                the Outer Banks because I would love to travel there, and I hope to do so in the timeframe between
-                2024 and 2028.</p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 p-0">
+                <div id="content" class="overflow-scroll">
+                    <h1>Outer Banks</h1>
+                <p>This is a map of the Outer Banks area in North Carolina. The area consists of several barrier islands
+                    on
+                    the East Coast of North Carolina. It is home to six lighthouses along with vacation homes, beach
+                    cottages, hotels, and several other notable tourist attractions such as the <a
+                        href=https://www.nps.gov/wrbr/index.htm>Wright Brothers National Memorial</a>. The area also
+                    consists of many beaches where tourists can visit along with seashores and wildlife refuge areas
+                    that
+                    protect their ecosystem.</p>
+                <h2>Features</h2>
+                <p>The final project features hotels, lighthouses, and other notable attractions in the Outer Banks
+                    area of North Carolina. This project uses three SVG (Scalable Vector Graphics) icons: a
+                    customized hotel SVG icon to represent the hotels, a lighthouse SVG to represent the lighthouses,
+                    and an attraction SVG to represent other notable attractions in the Outer Banks. I did this map on
+                    the Outer Banks because I would love to travel there, and I hope to do so in the timeframe between
+                    2024 and 2028.</p>
+                <ul class="list-unstyled">
+                    <h3>Data sources</h3>
+                    <li>
+                        <a href="https://www.outerbanks.org/things-to-do/">Outer Banks Tourist Guide</a>
+                    </li>
+                    <li>
+                        <a href="https://www.fulfillingtravel.com/web-stories/outer-banks-lighthouses/">Lighthouses in
+                            the
+                            Outer Banks</a>
+                    </li>
+                    <li>
+                        <a href="https://obxguides.com">OBX Guides</a>
+                    </li>
+                </div>
+                
+            </div>
+            <div class="col-8 p-0">
+                <!-- Add map legend -->
+                <div id="map"></div>
+
+            </div>
         </div>
-        <ul class="list-unstyled">
-            <h3>Data sources</h3>
-            <li>
-                <a href="https://www.outerbanks.org/things-to-do/">Outer Banks Tourist Guide</a>
-            </li>
-            <li>
-                <a href="https://www.fulfillingtravel.com/web-stories/outer-banks-lighthouses/">Lighthouses in the
-                    Outer Banks</a>
-            </li>
-            <li>
-                <a href="https://obxguides.com">OBX Guides</a>
-            </li>
-    </div>
     </div>
 
-</body>
-<!-- Add map legend -->
-<div id="map"></div>
-<!-- Add omnivore script-->
-<script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>
-<!-- Add Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-<!-- then Leaflet JS -->
-<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
-<script src="js/app.js"></script>
-<script src="js/hotspots.js"></script>
+
+
+    <!-- Add Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- then Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <!-- Add omnivore script-->
+    <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/hotspots.js"></script>
 
 </body>

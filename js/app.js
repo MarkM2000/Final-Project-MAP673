@@ -1,7 +1,7 @@
 // Fit page to window
-fitLayout();
+// fitLayout();
 
-window.addEventListener("resize", fitLayout);
+// window.addEventListener("resize", fitLayout);
 
 function fitLayout() {
   // set global variables for header, map container, and footer
