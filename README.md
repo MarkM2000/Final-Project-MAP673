@@ -1,4 +1,4 @@
-# final-project-map673
+# Final-Project-MAP673
 This repository will be the final project for MAP 673.
 
 Project Title: Outer Banks
