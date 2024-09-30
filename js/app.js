@@ -23,7 +23,7 @@ var map = L.map('map', {
 // mapbox API parameters
 const accessToken = `pk.eyJ1IjoibWFya20wMCIsImEiOiJjbTFrM2FqZGwwdWFnMmtvY2FlNDFwdWZyIn0.2Z-bz-XInRuh_d5KIW_mrQ`
 const yourName = 'markm00'
-const yourMap = 'clsmdvehq042801p21h468tcz'
+const yourMap = 'cm1p9kpl200es01pd495ocyuo'
 
 // request a mapbox raster tile layer and add to map
 L.tileLayer(`https://api.mapbox.com/styles/v1/${yourName}/${yourMap}/tiles/256/{z}/{x}/{y}?access_token=${accessToken}`, {
