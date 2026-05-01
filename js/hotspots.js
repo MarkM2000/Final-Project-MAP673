@@ -2,7 +2,7 @@
 var hotspots = [{
     name: "Bodie Island Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Bodie_Island_Lighthouse%2C_Cape_Hatteras_National_Seashore%2C_Outer_Banks%2C_North_Carolina_%2814432018464%29.jpg/200px-Bodie_Island_Lighthouse%2C_Cape_Hatteras_National_Seashore%2C_Outer_Banks%2C_North_Carolina_%2814432018464%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bodie_Island_Lighthouse_2008.JPG/330px-Bodie_Island_Lighthouse_2008.JPG",
         location: "Bodie Island",
         coordinates: [35.818554, -75.563309],
         url: 'https://www.nps.gov/caha/planyourvisit/bils.htm',
@@ -11,7 +11,7 @@ var hotspots = [{
 }, {
     name: "Cape Hatteras Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268137700%29.jpg/200px-Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268137700%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268129090%29.jpg/330px-Cape_Hatteras_Light_Station_%28Lighthouse%29%2C_Cape_Hatteras_National_Seashore%2C_Buxton%2C_North_Carolina_%2814268129090%29.jpg",
         location: "Hatteras Island",
         coordinates: [35.250533, -75.528806],
         url: 'https://www.nps.gov/caha/planyourvisit/chls.htm',
@@ -20,7 +20,7 @@ var hotspots = [{
 }, {
     name: "Ocracoke Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ocracoke_-_Ocracoke_Light_-_20140731184254.jpg/200px-Ocracoke_-_Ocracoke_Light_-_20140731184254.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ocracoke_Light%2C_on_North_Carolinas%27s_Outer_Banks%2C_by_Carol_M._Highsmith%2C_2017%2C_from_the_Library_of_Congress_-_iiif-service_pnp_highsm_44700_44771-full-pct_25-0-default.jpg/330px-thumbnail.jpg",
         location: "Ocracoke Island",
         coordinates: [35.108982, -75.986032],
         url: 'https://www.nps.gov/caha/planyourvisit/ols.htm',
@@ -29,7 +29,7 @@ var hotspots = [{
 }, {
     name: "Currituck Beach Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Currituckbeachlight.jpg/200px-Currituckbeachlight.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Currituck_Beach_Light.JPG/330px-Currituck_Beach_Light.JPG",
         location: "Corolla",
         coordinates: [36.376668, -75.830656],
         url: 'https://www.visitcurrituck.com/places/currituck-beach-light-house/',
@@ -38,7 +38,7 @@ var hotspots = [{
 }, {
     name: "Cape Lookout Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Cape_Lookout_Lighthouse.jpg/200px-Cape_Lookout_Lighthouse.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Cape_Lookout_Lighthouse_image_9.jpg/330px-Cape_Lookout_Lighthouse_image_9.jpg",
         location: "Cape Lookout",
         coordinates: [34.622742, -76.524529],
         url: 'https://www.nps.gov/calo/index.htm',
@@ -47,7 +47,7 @@ var hotspots = [{
 }, {
     name: "Roanoke Marshes Lighthouse",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Roanoke_Marshes_Light_Replica%2C_Manteo%2C_NC._%28Remake%29.jpg/200px-Roanoke_Marshes_Light_Replica%2C_Manteo%2C_NC._%28Remake%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Reconstructed_Roanoke_Marshes_Light_on_the_Waterfront_of_Manteo%2C_Roanoke_Island%2C_North_Carolina_%2814437446626%29.jpg/330px-Reconstructed_Roanoke_Marshes_Light_on_the_Waterfront_of_Manteo%2C_Roanoke_Island%2C_North_Carolina_%2814437446626%29.jpg",
         location: "Manteo",
         coordinates: [35.9082116, -75.6682721],
         url: 'https://www.manteonc.gov/visitors/roanoke-marshes-lighthouse',
