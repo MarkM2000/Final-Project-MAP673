@@ -93,7 +93,7 @@ var i = 0;
 var hotspots = [{
     name: "Wright Brothers National Memorial",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/First_Flight_Memorial_5.jpg/256px-First_Flight_Memorial_5.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/On_this_hill.jpg/330px-On_this_hill.jpg",
         location: "Kill Devil Hills",
         coordinates: [36.0143, -75.6679],
         information: "This granite monument honors the Wright Brothers, who conducted the first successful air flight.",
@@ -103,7 +103,7 @@ var hotspots = [{
 }, {
     name: "Jennette's Pier",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jennette%27s_Pier-3744_%2836939703020%29.jpg/256px-Jennette%27s_Pier-3744_%2836939703020%29.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Jennette%27s_Pier-3761_%2837194043261%29.jpg/960px-Jennette%27s_Pier-3761_%2837194043261%29.jpg",
         location: "Nags Head",
         coordinates: [35.910065, -75.595580],
         information: "This eco-friendly pier allows fishers to rent equipment and other supplies and offers fishing lessons.",
@@ -113,7 +113,7 @@ var hotspots = [{
 }, {
     name: "North Carolina Aquarium on Roanoke Island",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NC_Aquarium_at_Roanoke_Island.jpg/256px-NC_Aquarium_at_Roanoke_Island.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/NC_Aquarium_at_Roanoke_Island.jpg/330px-NC_Aquarium_at_Roanoke_Island.jpg",
         location: "Manteo",
         coordinates: [35.91757, -75.70392],
         information: "Come visit this aquarium on Roanoke Island in Manteo and visit the exhibits and fun experiences.",
@@ -123,7 +123,7 @@ var hotspots = [{
 }, {
     name: "Jockey's Ridge State Park",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Jockey%27s_Ridge_State_Park_Nags_Head_39.jpg/256px-Jockey%27s_Ridge_State_Park_Nags_Head_39.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/JockeysRidge.wmg.jpg/330px-JockeysRidge.wmg.jpg",
         location: "Nags Head",
         coordinates: [35.9627, -75.6340],
         information: "Visit this National Natural Landmark (NNL)-designated sand dunes park in the Nags Head area that features the tallest sand dune on the Atlantic Coast.",
@@ -133,7 +133,7 @@ var hotspots = [{
 }, {
     name: "Chicamacomico Life-Saving Station",
     properties: {
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Chicamacomico_Life_Saving_Station_02.jpg/256px-Chicamacomico_Life_Saving_Station_02.jpg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Outer_Banks_Scenic_Byway_-_Chicamacomico_Life-Saving_Station_Historic_Site_and_Museum_-_NARA_-_7720864.jpg/330px-Outer_Banks_Scenic_Byway_-_Chicamacomico_Life-Saving_Station_Historic_Site_and_Museum_-_NARA_-_7720864.jpg",
         location: "Rodanthe",
         coordinates: [35.59569, -75.46632],
         information: "Visit this former station-turned museum on Hatteras Island.",
