@@ -63,7 +63,7 @@ function drawMap(data) {
     <p>${props.NAME}</p>
     <p>${props.ADDRESS}</p>
     <p>${props.AREA}</p>
-    <p><b>URL</b>: <a href='${props.url}'>Visit website</a></p>
+    <p><b>URL</b>: <a href='${props.URL}'>Visit website</a></p>
 `
 
             layer.bindPopup(popup);
